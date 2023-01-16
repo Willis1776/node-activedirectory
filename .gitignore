@@ -4,6 +4,10 @@ wallaby.js
 
 .project
 .idea
+.npmrc
+.pnp.cjs
+.pnp.loader.mjs
+/.yarn
 
 samples
 node_modules
