@@ -19,7 +19,7 @@
   "dependencies": {
     "abstract-logging": "^2.0.0",
     "async": "^3.2.4",
-    "ldapjs": "^2.3.3",
+    "ldapjs": "next",
     "merge-options": "^3.0.4"
   },
   "scripts": {

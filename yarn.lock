@@ -480,6 +480,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"abstract-logging@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "abstract-logging@npm:1.0.0"
+  checksum: f1bb8e2c5e5764a84b8d2a5470fa950e1db56de30057198e4373d51973a297f73e3383c57a2fd6aee52f7d4e76b53c06b3f5339d8d4a8ada71a1fe40a11f4f31
+  languageName: node
+  linkType: hard
+
 "abstract-logging@npm:^2.0.0":
   version: 2.0.1
   resolution: "abstract-logging@npm:2.0.1"
@@ -512,7 +519,7 @@ __metadata:
     abstract-logging: ^2.0.0
     async: ^3.2.4
     jsdoc: ^3.6.5
-    ldapjs: ^2.3.3
+    ldapjs: next
     merge-options: ^3.0.4
     pino: ^6.4.1
     pre-commit: ^1.2.2
@@ -3204,11 +3211,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ldapjs@npm:^2.3.3":
-  version: 2.3.3
-  resolution: "ldapjs@npm:2.3.3"
+"ldapjs@npm:next":
+  version: 2.0.0-pre.5
+  resolution: "ldapjs@npm:2.0.0-pre.5"
   dependencies:
-    abstract-logging: ^2.0.0
+    abstract-logging: ^1.0.0
     asn1: ^0.2.4
     assert-plus: ^1.0.0
     backoff: ^2.5.0
@@ -3216,7 +3223,7 @@ __metadata:
     once: ^1.4.0
     vasync: ^2.2.0
     verror: ^1.8.1
-  checksum: 791cf22812805db3888dfc8aa8e4db8337e67387b318522c9965d40e678ecdb64950a6ea5930083590ec3377038620a3e63f90e985173ae6aca40e7f485290e0
+  checksum: 2cc0a7b484f92d87647d8fea219f773cfccb9df82e3ee2eb055645dcc0129913cab0dd67e5507e104313948ac4a87605f93ec00368497cd642a23aa0a9fede76
   languageName: node
   linkType: hard
 
